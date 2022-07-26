@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "387901556124",
+    "project_id": "test-insta-4eeee",
+    "storage_bucket": "test-insta-4eeee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387901556124:android:579d61d703dfaf03b0b459",
+        "android_client_info": {
+          "package_name": "com.example.test_insta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387901556124-1emndo1u166hv7gvk2gk7fhe0otl4rss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqP6ggPPoNseDayT95LxA2rKLxqW-QrW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387901556124-1emndo1u166hv7gvk2gk7fhe0otl4rss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

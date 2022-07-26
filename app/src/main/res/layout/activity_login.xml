@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_above="@+id/sign_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo_title"/>
+
+    <LinearLayout
+        android:id="@+id/sign_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/email_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/email" />
+
+        <EditText
+            android:id="@+id/password_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/password" />
+
+        <android.widget.Button
+            android:id="@+id/email_login"
+            android:text="@string/email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <android.widget.Button
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/btn_signin_facebook"
+            android:text="@string/signin_facebook"
+            android:id="@+id/facebook_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <android.widget.Button
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/btn_signin_google"
+            android:text="@string/signin_google"
+            android:id="@+id/google_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="35dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
